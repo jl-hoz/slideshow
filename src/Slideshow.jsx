@@ -14,7 +14,7 @@ const Slideshow = () => {
   const mainImage = <img src={data[slideIndex]} style={{width: '750px', height: 'auto', marginTop: '60px'}} />;
 
   const addImage = () => {
-    setImage(true);
+    setImage(!isImage);
   } 
 
   return (
